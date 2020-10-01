@@ -10,9 +10,10 @@
 ### A Streamlined EDA and ML platform
 <p> </p>
 The main goal of this project is to build a no-code platform that explains the data behind the model. The 2 main objectives are: <br />
-1.	An in-depth expiation of your data through an interactive EDA interface
-2.	An ML platform that deploys the best model with interpretable measures
-
+<ol>
+<li>An in-depth expiation of your data through an interactive EDA interface</li>
+<li>An ML platform that deploys the best model with interpretable measures</li>
+</ol>
 <br />
 <br />
 
