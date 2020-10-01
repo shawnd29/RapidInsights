@@ -1,6 +1,6 @@
 
-### (This is the UI For showing of the project)
-### (For the actual project, do vsit https://webapp-streamlined.herokuapp.com/ )
+#### (This is the UI For showing of the project)
+#### (For the actual project, do vsit [the platfrom](https://webapp-streamlined.herokuapp.com/)
 <p> </p>
 <p> </p>
 
@@ -28,6 +28,6 @@ Granular understanding of individual features|Rapid data preprocessing
 
 
 
-Special thanks to [Streamlit] (https://github.com/streamlit/streamlit), [Pycaret](https://github.com/pycaret/pycaret) (PyCaret Link) and GitHub Pages themes [GitHub Pages themes](https://github.com/pages-themes/midnight)(Midnight Link) for their open-source platforms 
+Special thanks to [Streamlit](https://github.com/streamlit/streamlit), [Pycaret](https://github.com/pycaret/pycaret) and [GitHub Pages themes](https://github.com/pages-themes/midnight) for their open-source platforms 
 
 
