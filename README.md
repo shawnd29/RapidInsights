@@ -1,109 +1,33 @@
-# The Midnight theme
 
-[![Build Status](https://travis-ci.org/pages-themes/midnight.svg?branch=master)](https://travis-ci.org/pages-themes/midnight) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-midnight.svg)](https://badge.fury.io/rb/jekyll-theme-midnight)
+### (This is the UI For showing of the project)
+### (For the actual project, do vsit https://webapp-streamlined.herokuapp.com/ )
+<p> </p>
+<p> </p>
 
-*Midnight is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/midnight), or even [use it today](#usage).*
+# Introducing RapidInsights
+<p> </p>
+### A Streamlined EDA and ML platform
+<p> </p>
+The main goal of this project is to build a no-code platform that explains the data behind the model. The 2 main objectives are: <br />
+1.	An in-depth expiation of your data through an interactive EDA interface
+2.	An ML platform that deploys the best model with interpretable measures
 
-![Thumbnail of Midnight](thumbnail.png)
+<br />
+<br />
 
-## Usage
+Let’s look at what each of them can do:
 
-To use the Midnight theme:
+|EDA                          |ML                        
+|----------------|-----------------------------
+Granular understanding of individual features|Rapid data preprocessing           
+|In-depth insights on duplicated values | 11 different supervised classification models to evaluate the best metrics
+|Visual analysis on missing values | 10 Folds Cross Validation to find the best hyperparameters
+|Uni, bi and multivariate analysis of features         | 15 visual insights to understand the classification       
+|Precise breakdown on numeric, categorical and date-time features | Deploy a pipeline of the data preprocessing and model
+|![EDA](./assets/images/EDA.gif) | ![ML](./assets/images/ML.gif)
 
-1. Add the following to your site's `_config.yml`:
 
-    ```yml
-    theme: jekyll-theme-midnight
-    ```
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+Special thanks to [Streamlit] (https://github.com/streamlit/streamlit), [Pycaret](https://github.com/pycaret/pycaret) (PyCaret Link) and GitHub Pages themes [GitHub Pages themes](https://github.com/pages-themes/midnight)(Midnight Link) for their open-source platforms 
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
 
-## Customizing
-
-### Configuration variables
-
-Midnight will respect the following variables, if set in your site's `_config.yml`:
-
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
-
-Additionally, you may choose to set the following optional variables:
-
-```yml
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
-
-### Stylesheet
-
-If you'd like to add your own custom styles:
-
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
-
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
-
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
-
-### Layouts
-
-If you'd like to change the theme's HTML layout:
-
-1. [Copy the original template](https://github.com/pages-themes/midnight/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-2. Create a file called `/_layouts/default.html` in your site
-3. Paste the default layout content copied in the first step
-4. Customize the layout as you'd like
-
-### Overriding GitHub-generated URLs
-
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
-
-1. Look at [the template source](https://github.com/pages-themes/midnight/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
-
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
-
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/midnight/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Midnight theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Midnight? We'd love your help. Midnight is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/midnight`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
-
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
