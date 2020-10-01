@@ -1,13 +1,13 @@
 
-#### (This is the UI to demonstrate the product and the link is found [here](https://shawnd29.github.io/RapidInsights/) )
-#### (For the actual project, do visit [the platfrom](https://webapp-streamlined.herokuapp.com/))
+##### (This is the UI to demonstrate the product and the link is found [here](https://shawnd29.github.io/RapidInsights/) )
+##### (For the actual project, do visit [the platfrom](https://webapp-streamlined.herokuapp.com/))
 <p> </p>
 <p> </p>
 
 # Introducing RapidInsights
 <p> </p>
 
-#### A Streamlined EDA and ML platform
+### A Streamlined EDA and ML platform
 <p> </p>
 The main goal of this project is to build a no-code platform that explains the data behind the model. The 2 main objectives are: <br />
 1.	An in-depth expiation of your data through an interactive EDA interface
