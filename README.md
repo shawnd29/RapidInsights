@@ -1,6 +1,6 @@
 
 ##### (This is the UI to demonstrate the product and the link is found [here](https://shawnd29.github.io/RapidInsights/) )
-##### (For the actual project, do visit [the platfrom](https://webapp-streamlined.herokuapp.com/))
+##### (For the actual project, do visit [the platfrom](https://share.streamlit.io/shawnd29/eda-webapp/app.py))
 <p> </p>
 <p> </p>
 
